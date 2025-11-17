@@ -1,5 +1,4 @@
 <?php
-//(a): Arithmetic Operators
 $num1 = 20;
 $num2 = 6;
 echo "Number 1 = $num1<br>";
@@ -9,8 +8,6 @@ echo "Difference: " . ($num1 - $num2) . "<br>";
 echo "Product: " . ($num1 * $num2) . "<br>";
 echo "Division: " . ($num1 / $num2) . "<br>";
 echo "Modulus: " . ($num1 % $num2) . "<br><br>";
-
-//(b): Assignment Operators
 $x = 10;
 echo "value: $x<br>";
 $x += 5;   
@@ -24,7 +21,6 @@ echo "After /= 4: $x<br>";
 $x %= 3;   
 echo "After %= 3: $x<br><br>";
 
-//(c): Logical Operators
 $number = 42;
 
 if ($number >= 1 && $number <= 100 && $number % 2 == 0) {
